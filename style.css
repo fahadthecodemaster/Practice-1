@@ -1,0 +1,283 @@
+*{
+    margin-top: 5px;
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.body{
+    overflow-x: hidden;
+}
+.nav-item{
+    justify-content: space-between !important;
+    gap: 50px;
+}
+.nav-item a{
+    color: black !important;
+}
+.nav-item li{
+    color: black;
+}
+.nav-btn{
+    padding: 10px 30px !important;
+}
+.nav-btn:hover{
+    background-color: rgb(46, 58, 48) !important;
+}
+
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.dropdown-menu {
+    /* Optional: Adjust position and z-index to ensure it appears above other content */
+    position: absolute;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+/*nav end*/
+
+.hero{
+   padding: 200px;
+}
+.hero img{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    bottom: 0 ;
+    overflow: hidden;
+    z-index: -1;
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: 400px;
+    width: 70%;
+}
+.hero-btn{
+    padding:10px  30px 10px 30px !important;
+
+}
+.hero-btn:hover{
+    background-color: rgb(46, 58, 48) !important;
+
+}
+.hero a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: 500;
+}
+.hero a i{
+    font-size: 30px;
+    padding: 10px 20px 0px 20px;
+    font-weight: 500;
+}
+/* hero end */
+.product{
+    background-color: rgba(59, 59, 25, 0.062);
+    padding: 100px;
+}
+.pd{
+    padding: 100px;
+    
+}
+.product-heading{
+    font-weight: 700;
+}
+.card{
+    width: 350px;
+    border: none !important;
+
+}
+.ci{
+    width: 80%;
+    padding:5px 20px !important;
+}
+
+.card p{
+    font-size: 15px;
+    font-weight: 450;
+}
+.product-btn{
+    background-color: aquamarine !important;
+    width: 100%;
+    color: black;
+
+}
+.product-btn:hover i{
+    padding-left: 10px;
+    transition: 0.2s;
+}
+.card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s ease-in-out; 
+}
+/* end card */
+.product2{
+    background-color: rgba(0, 94, 255, 0.764);
+    padding: 100px;
+    color: aliceblue;
+    background-image: url(./img/shape2.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+.product2 h1{
+    padding-left: 80px;
+    font-size: 60px;
+}
+
+.product2 button{
+    margin-top:80px ;
+    margin-left: 80px;
+    font-size: 25px;
+    padding: 10px;
+}
+.product2 button:hover{
+    background-color: rgb(46, 58, 48) !important;
+}
+/* end product */
+
+
+.About{
+    margin: 0 auto;
+    padding: 150px;
+}
+/* about end */
+
+.news{
+    margin-top: 200px;
+    background-image: url(./img/msg_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    margin-left: 50px;
+    
+}
+
+
+
+
+.in{
+    display: flex;
+
+}
+.in input{
+    width: 80%;
+    padding: 15px;
+    border-style: none;
+    margin-left:50px;
+    
+   
+}
+.in button{
+    left: 0;
+    padding: 10px 30px 10px 30px;
+ 
+}
+.news h1{
+    margin-left:50px;
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 600;
+}
+.msg-input{
+    position: relative;
+}
+.msg-btn{
+    position: absolute;
+    top: 0;
+    width: auto;
+    right: 85px;
+}
+/* end of mail */
+
+.logo{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+}
+
+  /* .box{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.184);
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: 0.3s;
+}  
+.box:hover{
+    background-color: rgba(0, 251, 163, 0.556);
+}
+.box1 {
+    margin: 0 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+.box1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   */
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.box a{
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    height: 45px;
+    width: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s
+
+}
+.box a:hover{
+    background-color: rgba(46, 243, 247, 0.753);
+    color: black;
+}
+.box i{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/* logo end */
+
+.footer-menu a{
+    text-decoration: none;
+    display: inline-flex;
+    align-self: flex-end;
+    color: rgba(0, 0, 0, 0.633);
+    font-weight: 500;
+}
